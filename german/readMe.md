@@ -1,4 +1,4 @@
-# 30 Days Of JavaScript
+# 30 Tage JavaScript
 
 | # Day |                                                                       Topics                                                                        |
 | ----- | :-------------------------------------------------------------------------------------------------------------------------------------------------: |
@@ -94,7 +94,7 @@
 		- [Code Editor](#code-editor)
 			- [Visual Studio Code installieren](#visual-studio-code-installieren)
 			- [Visual Studio Code benutzen](#visual-studio-code-benutzen)
-	- [Adding JavaScript to a Web Page](#adding-javascript-to-a-web-page)
+	- [JavaScript zu einer Webpage hinzufügen](#javascript-zu-einer-Webpage-hinzufügen)
 		- [Inline Script](#inline-script)
 		- [Internal Script](#internal-script)
 		- [External Script](#external-script)
@@ -331,23 +331,23 @@ Javascript kann einer Website mit vier verschiedenen Arten hinzugefügt werden:
 
 Die folgenden Abschnitte zeigen verschiedene möglichkeiten JavaScript code zu deiner Webpage hinzuzufügen.
 
-### Inline Script
+### Script in der Zeile
 
-Create a project folder on your desktop or in any location, name it 30DaysOfJS and create an **_`index.html`_** file in the project folder. Then paste the following code and open it in a browser, for example [Chrome](https://www.google.com/chrome/).
+Erstell irgendwo auf deinem Computer einen Projekt Ordner, nenne ihn 30DaysOfJS und erstelle ein **_`index.html`_** file in diesem Ordner. Dann füge folgenden Code ein und öffne es in einem Browser, z.B.: [Chrome](https://www.google.com/chrome/).
 
 ```html
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
   <head>
-    <title>30DaysOfScript:Inline Script</title>
+    <title>30TageJavaScript: Script in der Zeile</title>
   </head>
   <body>
-    <button onclick="alert('Welcome to 30DaysOfJavaScript!')">Click Me</button>
+    <button onclick="alert('Willkommen zu 30TageJavaScript!')">Click mich</button>
   </body>
 </html>
 ```
 
-Now, you just wrote your first inline script. We can create a pop up alert message using the _`alert()`_ built-in function.
+Jetzt hast du gerade dein erstes Script in der Zeile geschrieben. Wir können eine Pop-Up Nachricht erstellen mit _`alert()`_. Das ist auch eine eingebaute Funktion.
 
 ### Internal Script
 
