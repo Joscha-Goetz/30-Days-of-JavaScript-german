@@ -77,11 +77,11 @@
 ![Thirty Days Of JavaScript](./images/day_1_1.png)
 
 - [30 Tage JavaScript](#30-days-of-javascript)
-- [📔 Tag 1](#-Tag-1)
-	- [Einführung](#Einführung)
-	- [Anforderungen](#requirements)
-	- [Einrichten](#setup)
-		- [Node.js installieren](#install-nodejs)
+- [📔 Tag 1](#-tag-1)
+	- [Einführung](#einführung)
+	- [Anforderungen](#anforderungen)
+	- [Einrichtung](#einrichtung)
+		- [Node.js installieren](#nodejs-installieren)
 		- [Browser](#browser)
 			- [Google Chrome installieren](#installing-google-chrome)
 			- [Opening Google Chrome Console](#opening-google-chrome-console)
@@ -137,28 +137,28 @@ Du brauchst keine Programmierkenntnisse um diese Challenge zu bestreiten. Das ei
 4. Einen Browser
 5. Einen Code Editor (Wie du den installierst, zeigen wir dir gleich)
 
-## Setup
+## Einrichtung
 
-I believe you have the motivation and a strong desire to be a developer, a computer and Internet. If you have those, then you have everything to get started.
+Ich glaube, dass du die Motivation, einen Computer und Internet hast. Damit hast du eigentlich schon alles und bist startbereit.
 
-### Install Node.js
+### Node.js installieren
 
-You may not need Node.js right now but you may need it for later. Install [node.js](https://nodejs.org/en/).
+Du brauchst zwar jetzt noch kein Node.js, doch wir installieren es schon für später. [Node.js](https://nodejs.org/en/) installieren.
 
-![Node download](images/download_node.png)
+![Node Download](images/download_node.png)
 
-After downloading double click and install
+Nach dem Downloaden doppelklicken und installieren
 
-![Install node](images/install_node.png)
+![Node installieren](images/install_node.png)
 
-We can check if node is installed on our local machine by opening our device terminal or command prompt.
+Wir können überprüfen ob node auf unserem Computer installiert ist, indem wir unser Terminal öffnen und folgendes eingeben:
 
 ```sh
-asabeneh $ node -v
+$ node -v
 v12.14.0
 ```
 
-When making this tutorial I was using Node version 12.14.0, but now the recommended version of Node.js for download is v14.17.6, by the time you use this material you may have a higher Node.js version.
+Als ich dieses tutorial geschrieben habe, benutzte ich die Node version 12.14.0, doch jetzt sollte die empfohlene Version von Node.js zum downloaden höher sein (bspw. **v14.17.6**).
 
 ### Browser
 
