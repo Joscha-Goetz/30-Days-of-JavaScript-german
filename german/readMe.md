@@ -95,7 +95,7 @@
 			- [Visual Studio Code installieren](#visual-studio-code-installieren)
 			- [Visual Studio Code benutzen](#visual-studio-code-benutzen)
 	- [JavaScript zu einer Webpage hinzufügen](#javascript-zu-einer-Webpage-hinzufügen)
-		- [Inline Script](#inline-script)
+		- [Script in der Zeile](#script-in-der-zeile)
 		- [Internal Script](#internal-script)
 		- [External Script](#external-script)
 		- [Multiple External Scripts](#multiple-external-scripts)
@@ -349,42 +349,41 @@ Erstell irgendwo auf deinem Computer einen Projekt Ordner, nenne ihn 30DaysOfJS 
 
 Jetzt hast du gerade dein erstes Script in der Zeile geschrieben. Wir können eine Pop-Up Nachricht erstellen mit _`alert()`_. Das ist auch eine eingebaute Funktion.
 
-### Internal Script
-
-The internal script can be written in the _`head`_ or the _`body`_, but it is preferred to put it on the body of the HTML document.
-First, let us write on the head part of the page.
+### Internes Script
+Das interne Script kann im _`head`_ oder dem _`body`_ geschrieben werden, aber meistens wird es im Body des HTML-Dokuments geschrieben.
+Lass es uns dennoch zuerst in den _`head`_ schreiben.
 
 ```html
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
   <head>
-    <title>30DaysOfScript:Internal Script</title>
+    <title>30TageJavaScript: Internes Script</title>
     <script>
-      console.log('Welcome to 30DaysOfJavaScript')
+      console.log('Willkommen zu 30TageJavaScript')
     </script>
   </head>
   <body></body>
 </html>
 ```
 
-This is how we write an internal script most of the time. Writing the JavaScript code in the body section is the most preferred option. Open the browser console to see the output from the `console.log()`.
+Meistens schreiben wir ein internes script so. Aber es im Body zu schreiben ist die bevorzugte version. Öffne die Browserkonsole um den Output von `console.log()` zu sehen.
 
 ```html
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
   <head>
-    <title>30DaysOfScript:Internal Script</title>
+    <title>30TageJavaScript: Internes Script</title>
   </head>
   <body>
-    <button onclick="alert('Welcome to 30DaysOfJavaScript!');">Click Me</button>
+    <button onclick="alert('Willkommen zu 30TageJavaScript!');">Click mich</button>
     <script>
-      console.log('Welcome to 30DaysOfJavaScript')
+      console.log('Willkommen zu 30TageJavaScript')
     </script>
   </body>
 </html>
 ```
 
-Open the browser console to see the output from the `console.log()`.
+Öffne erneut die Browserkonsole um den Output von `console.log()` zu sehen.
 
 ![js code from vscode](./images/js_code_vscode.png)
 
