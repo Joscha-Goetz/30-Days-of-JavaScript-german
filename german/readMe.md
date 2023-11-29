@@ -96,7 +96,7 @@
 			- [Visual Studio Code benutzen](#visual-studio-code-benutzen)
 	- [JavaScript zu einer Webpage hinzufügen](#javascript-zu-einer-Webpage-hinzufügen)
 		- [Script in der Zeile](#script-in-der-zeile)
-		- [Internal Script](#internal-script)
+		- [Internes Script](#internes-script)
 		- [External Script](#external-script)
 		- [Multiple External Scripts](#multiple-external-scripts)
 	- [Introduction to Data types](#introduction-to-data-types)
@@ -387,45 +387,45 @@ Meistens schreiben wir ein internes script so. Aber es im Body zu schreiben ist 
 
 ![js code from vscode](./images/js_code_vscode.png)
 
-### External Script
+### Externes Script
 
-Similar to the internal script, the external script link can be on the header or body, but it is preferred to put it in the body.
-First, we should create an external JavaScript file with .js extension. All files ending with .js extension are JavaScript files. Create a file named introduction.js inside your project directory and write the following code and link this .js file at the bottom of the body.
+Ähnlich wie beim internen Script, verlinken wir das externe Script im Header oder Body, doch vorzugsweise dem Body.
+Doch zuerst erstellen wir ein externes JavaScript file mit der .js Endung. Alle Files, die auf .js enden sind JavaScript files. Erstelle ein Dokument mit dem Namen introduction.js in deinem Projekt Ordner und schreibe folgenden code. Verlinke dieses File ganz unten im Body.
 
 ```js
-console.log('Welcome to 30DaysOfJavaScript')
+console.log('Willkommen zu 30TageJavaScript')
 ```
 
-External scripts in the _head_:
+Externes Script im _head_:
 
 ```html
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
   <head>
-    <title>30DaysOfJavaScript:External script</title>
+    <title>30TageJavaScript: Externes script</title>
     <script src="introduction.js"></script>
   </head>
   <body></body>
 </html>
 ```
 
-External scripts in the _body_:
+Externes script im _body_:
 
 ```html
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
   <head>
-    <title>30DaysOfJavaScript:External script</title>
+    <title>30TageJavaScript:Externes script</title>
   </head>
   <body>
-    <!-- JavaScript external link could be in the header or in the body --> 
-    <!-- Before the closing tag of the body is the recommended place to put the external JavaScript script -->
+    <!-- Der Externe link kann im Header und im Body sein --> 
+    <!-- direkt vor dem Schließungstag des Bodys sollte man sein script am besten platzieren -->
     <script src="introduction.js"></script>
   </body>
 </html>
 ```
 
-Open the browser console to see the output of the `console.log()`.
+Öffne die Browserkonsolu und sie dir den Output von `console.log()` an.
 
 ### Multiple External Scripts
 
