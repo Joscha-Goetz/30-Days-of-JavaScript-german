@@ -81,14 +81,14 @@
 	- [Einführung](#einführung)
 	- [Anforderungen](#anforderungen)
 	- [Einrichtung](#einrichtung)
-		- [Node.js installieren](#nodejs-installieren)
+		- [Node.js installieren](#node.js-installieren)
 		- [Browser](#browser)
-			- [Google Chrome installieren](#installing-google-chrome)
-			- [Opening Google Chrome Console](#opening-google-chrome-console)
-			- [Writing Code on Browser Console](#writing-code-on-browser-console)
+			- [Google Chrome installieren](#google-chrome-installieren)
+			- [Konsole in Google Chrome öffnen](#konsole-in-google-chrome-öffnen)
+			- [Code in der Browserkonsole schreiben](#code-in-der-browserkonsole-schreiben)
 				- [Console.log](#consolelog)
-				- [Console.log with Multiple Arguments](#consolelog-with-multiple-arguments)
-				- [Comments](#comments)
+				- [Console.log mit mehreren Argumenten](#consolelog-mit-mehreren-argumenten)
+				- [Kommentare](#kommentare)
 				- [Syntax](#syntax)
 			- [Arithmetics](#arithmetics)
 		- [Code Editor](#code-editor)
@@ -162,62 +162,62 @@ Als ich dieses tutorial geschrieben habe, benutzte ich die Node version 12.14.0,
 
 ### Browser
 
-There are many browsers out there. However, I strongly recommend Google Chrome.
+Es gibt viele verschiedene Browser. Ich kann google chrome nur wärmstens empfehlen.
 
-#### Installing Google Chrome
+#### Google Chrome installieren
 
-Install [Google Chrome](https://www.google.com/chrome/) if you do not have one yet. We can write small JavaScript code on the browser console, but we do not use the browser console to develop applications.
+Installiere [Google Chrome](https://www.google.com/chrome/), wenn du das nicht eh schon gemacht hast. Wir können ein wenig JavaScript in der Browser-Konsole schreiben, sie wird aber nicht dazu verwendet, um Programme zu entwickeln.
 
 ![Google Chrome](images/google_chrome.png)
 
-#### Opening Google Chrome Console
+#### Konsole in Google Chrome öffnen
 
-You can open Google Chrome console either by clicking three dots at the top right corner of the browser, selecting _More tools -> Developer tools_ or using a keyboard shortcut. I prefer using shortcuts.
+Du kannst die Konsole zeinerseits öffnen, indem du oben rechts auf die drei Punkte klickst und dann _Weitere Tools -> Entwicklertools_ auswählst. Ich benutze stattdessen lieber shortcuts.
 
-![Opening chrome](images/opening_developer_tool.png)
+![Chrome öffnen](images/opening_developer_tool.png)
 
-To open the Chrome console using a keyboard shortcut.
+Konsole mit Shorcut öffnen.
 
 ```sh
 Mac
 Command+Option+J
 
 Windows/Linux:
-Ctl+Shift+J
+Ctrl+Shift+J
 ```
 
-![Opening console](images/opening_chrome_console_shortcut.png)
+![Konsole öffnen](images/opening_chrome_console_shortcut.png)
 
-After you open the Google Chrome console, try to explore the marked buttons. We will spend most of the time on the Console. The Console is the place where your JavaScript code goes. The Google Console V8 engine changes your JavaScript code to machine code.
-Let us write a JavaScript code on the Google Chrome console:
+Sieh dich nun bei den Markierten Buttons um. Wir werden die meiste Zeit in der Konsole verbringen. Das ist der Ort, wo dein JavaScript ausgeführt wird. Die Google Console V8 engine konvertiert deinen JavaScript-code in Machine Code.
+Lasst uns ein wenig JavaScript-code in der Konsole schreiben:
 
-![write code on console](./images/js_code_on_chrome_console.png)
+![Code in der Konsole schreiben](./images/js_code_on_chrome_console.png)
 
-#### Writing Code on Browser Console
+#### Code in der Browserkonsole schreiben
 
-We can write any JavaScript code on the Google console or any browser console. However, for this challenge, we only focus on Google Chrome console. Open the console using:
+Wir können JavaScript code immer in der Googlekonsole oder in anderen Browserkonsolen schreiben. Trotzdem legen wir den Focus bei dieser Challenge auf die Google Konsole. Öffne die Konsole mit:
 
 ```sh
 Mac
 Command+Option+I
 
 Windows:
-Ctl+Shift+I
+Ctrl+Shift+I
 ```
 
 ##### Console.log
 
-To write our first JavaScript code, we used a built-in function **console.log()**. We passed an argument as input data, and the function displays the output. We passed `'Hello, World'` as input data or argument in the console.log() function.
+Um unseren ersten JavaScript code zu schreiben nutzen wir die eingebaute Funktion **console.log()**. Wir übergeben ein Argument als input data und die Funktion zeigt den Output an. Wir haben `'Hello, World'` als input für die Funktion console.log() übergeben.
 
 ```js
 console.log('Hello, World!')
 ```
 
-##### Console.log with Multiple Arguments
+##### Console.log mit mehreren Argumenten
 
-The **`console.log()`** function can take multiple parameters separated by commas. The syntax looks like as follows:**`console.log(param1, param2, param3)`**
+Die **`console.log()`** Funktion kann mehrere Parameter durch Kommata getrennt aufnehmen. Die Syntax dafür sieht so aus:**`console.log(param1, param2, param3)`**
 
-![console log multiple arguments](./images/console_log_multipl_arguments.png)
+![console log mehrere Argumente](./images/console_log_multipl_arguments.png)
 
 ```js
 console.log('Hello', 'World', '!')
@@ -225,46 +225,46 @@ console.log('HAPPY', 'NEW', 'YEAR', 2020)
 console.log('Welcome', 'to', 30, 'Days', 'Of', 'JavaScript')
 ```
 
-As you can see from the snippet code above, _`console.log()`_ can take multiple arguments.
+Wie du von dem Ausschnitt drüber sehen kannst, kann _`console.log()`_ mehrere Argumente aufnehmen.
 
-Congratulations! You wrote your first JavaScript code using _`console.log()`_.
+Glückwunsch! Du hast deinen ersten JavaScript-code mit _`console.log()`_ geschrieben.
 
-##### Comments
+##### Kommentare
 
-We can add comments to our code. Comments are very important to make code more readable and to leave remarks in our code. JavaScript does not execute the comment part of our code. In JavaScript, any text line starting with // in JavaScript is a comment, and anything enclosed like this `//` is also a comment.
+Wir können unseren Code mit Kommentaren versehen. Kommentare sind wehr wichtig um unseren Code lesbar zu gestalten. JavaScript führt die Kommentare nicht aus. In JavaScript ist jede Zeile, die mit `//` beginnt ein Kommentar. Auch alles eingeschlossen mit `//` ist ein Kommentar.
 
-**Example: Single Line Comment**
+**Beispiel: einzeiliger Kommentar**
 
 ```js
-// This is the first comment  
-// This is the second comment  
-// I am a single line comment
+// Das ist der erste Kommentar  
+// Das ist der zweiter Kommentar
+// Ich bin ein einzeiliger Kommentar
 ```
 
-**Example: Multiline Comment**
+**Beispiel: mehrzeiliger Kommentar**
 
 ```js
 /*
-This is a multiline comment  
- Multiline comments can take multiple lines  
- JavaScript is the language of the web  
+Das ist ein mehrzeiliger Kommentar
+ mehrzeilige Kommentare können mehrere Zeilen einnehmen
+ JavaScript ist die Sprache des Internets
  */
 ```
 
 ##### Syntax
 
-Programming languages are similar to human languages. English or many other language uses words, phrases, sentences, compound sentences and other more to convey a meaningful message. The English meaning of syntax is _the arrangement of words and phrases to create well-formed sentences in a language_. The technical definition of syntax is the structure of statements in a computer language. Programming languages have syntax. JavaScript is a programming language and like other programming languages it has its own syntax. If we do not write a syntax that JavaScript understands, it will raise different types of errors. We will explore different kinds of JavaScript errors later. For now, let us see syntax errors.
+Programmiersprachen sind ähnlich wie menschliche Sprachen. Englisch oder viele andere Sprachen benutzen Wörter, Phrasen, Sätze, zusammengesetzte Sätze und anderes um eine wichtige Message rüber zu bringen. Die Englische bedeutung von Syntax ist _die Anordnung von Wörtern und Sätzen um sinnvolle Sätze in einer Sprache zu erstellen_. Die technische Definition von Syntax ist die Strukturierung von Statements in einer Computer Sprache. Programmiersprachen haben eine Syntax. JavaScript ist so eine Programmiersprache und hat wie alle anderen auch eine Syntax. Wenn wir nicht die Syntax schreiben, die JavaScript versteht, wird das verschiedene Fehler hervorrufen. Wir werden verschiedene Arten von JavaScript Errors später besprechen. Jetzt, beschäftigen wir uns erstmal nur mit Syntax Errors.
 
 ![Error](images/raising_syntax_error.png)
 
-I made a deliberate mistake. As a result, the console raises syntax errors. Actually, the syntax is very informative. It informs what type of mistake was made. By reading the error feedback guideline, we can correct the syntax and fix the problem. The process of identifying and removing errors from a program is called debugging. Let us fix the errors:
+Ich habe einen absichtlichen Fehler gemacht. Deswegen zeigt uns die Konsole einen Syntax Error an. Tatsächlich ist diese Meldung sehr hilfreich. Sie zeigt uns welchen Fehler wir gemacht haben. Indem wir diese Meldung lesen, können wir den Fehler finden und verbessern. Diesen Prozess nennt man auch debugging. Lass uns diese Fehler beheben:
 
 ```js
 console.log('Hello, World!')
 console.log('Hello, World!')
 ```
 
-So far, we saw how to display text using the _`console.log()`_. If we are printing text or string using _`console.log()`_, the text has to be inside the single quotes, double quotes, or a backtick.
+Bisher haben wir gesehen, wie wir Text mit _`console.log()`_ anzeigen können. Wenn wir Text, oder auch einen String mit _`console.log()`_, anzeigen lassen wollen, muss der Text in einstrichigen-, zweistrichigen- oder schrägen Anführungszeichen stehen.
 **Example:**
 
 ```js
@@ -273,21 +273,21 @@ console.log("Hello, World!")
 console.log(`Hello, World!`)
 ```
 
-#### Arithmetics
+#### Arithmetik
 
-Now, let us practice more writing JavaScript codes using _`console.log()`_ on Google Chrome console for number data types.
-In addition to the text, we can also do mathematical calculations using JavaScript. Let us do the following simple calculations.
-It is possible to write JavaScript code on Google Chrome console can directly without the **_`console.log()`_** function. However, it is included in this introduction because most of this challenge would be taking place in a text editor where the usage of the function would be mandatory. You can play around directly with instructions on the console.
+Lass uns jetzt noch mehr JavaScipt code für Nummer data types mit _`console.log()`_ in der Googlekonsole schreiben.
+Zusätzlich zum Text, können wir nämlich auch mathematische Rechnungen mit JavaScript ausführen. Lass uns die folgenden einfachen Rechnungen machen.
+Es ist möglich auch ohne **_`console.log()`_** JavaScript code in der Googlekonsole zu schreiben. Trotzdem ist es in dieser Challenge miteinbezogen, weil es später für das schreiben im Code-Editor notwendig ist.
 
-![Arithmetic](images/arithmetic.png)
+![Arithmetik](images/arithmetic.png)
 
 ```js
 console.log(2 + 3) // Addition
-console.log(3 - 2) // Subtraction
-console.log(2 * 3) // Multiplication
+console.log(3 - 2) // Subtraktion
+console.log(2 * 3) // Multiplikation
 console.log(3 / 2) // Division
-console.log(3 % 2) // Modulus - finding remainder
-console.log(3 ** 2) // Exponentiation 3 ** 2 == 3 * 3
+console.log(3 % 2) // Modulo - Rest finden
+console.log(3 ** 2) // Exponieren 3 ** 2 == 3 * 3
 ```
 
 ### Code Editor
