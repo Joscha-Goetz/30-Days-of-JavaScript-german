@@ -296,11 +296,11 @@ Wir können unseren code in der Browserkonsole schreiben, aber das klappt nicht 
 
 #### Visual Studio Code installieren
 
-Visual Studio Code is a very popular open-source text editor. I would recommend to [download Visual Studio Code](https://code.visualstudio.com/), but if you are in favor of other editors, feel free to follow with what you have.
+Visual Studio Code ist ein sehr beliebter open-source Code editor. Ich würde empfehlen[Visual Studio Code downloaden](https://code.visualstudio.com/) zu downloaden, aber wenn du andere bevorzugst, kannst du auch gerne mit denen folgen.
 
 ![Vscode](images/vscode.png)
 
-If you installed Visual Studio Code, let us start using it.
+Wenn du VS-Code installiert hast, lass uns beginnen es zu nutzen.
 
 #### How to Use Visual Studio Code
 
