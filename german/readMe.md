@@ -127,15 +127,15 @@ Dieser Guide ist einfach zu lesen, verfasst in umgangssprachlichem Deutsch, fess
 
 Der Autor würde gerne deine Meinung über die Challenge hören. Teile sie [hier](https://testimonial-vdzd.onrender.com//) mit ihm.
 
-## Requirements
+## Anforderungen
 
-No prior knowledge of programming is required to follow this challenge. You need only:
+Du brauchst keine Programmierkenntnisse um diese Challenge zu bestreiten. Das einzige was du brauchst ist:
 
 1. Motivation
-2. A computer
+2. Einen Computer
 3. Internet
-4. A browser
-5. A code editor
+4. Einen Browser
+5. Einen Code Editor (Wie du den installierst, zeigen wir dir gleich)
 
 ## Setup
 
