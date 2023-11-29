@@ -93,7 +93,7 @@
 			- [Arithmetik](#arithmetik)
 		- [Code Editor](#code-editor)
 			- [Visual Studio Code installieren](#visual-studio-code-installieren)
-			- [How to Use Visual Studio Code](#how-to-use-visual-studio-code)
+			- [Visual Studio Code benutzen](#visual-studio-code-benutzen)
 	- [Adding JavaScript to a Web Page](#adding-javascript-to-a-web-page)
 		- [Inline Script](#inline-script)
 		- [Internal Script](#internal-script)
@@ -320,16 +320,16 @@ Wenn du VS-Code installiert hast, lass uns beginnen es zu nutzen.
 
 ![coding running](./images/launched_on_new_tab.png)
 
-## Adding JavaScript to a Web Page
+## JavaScript zu einer Webpage hinzufügen
 
-JavaScript can be added to a web page in three different ways:
+Javascript kann einer Website mit vier verschiedenen Arten hinzugefügt werden:
 
-- **_Inline script_**
-- **_Internal script_**
-- **_External script_**
-- **_Multiple External scripts_**
+- **_script in der Zeile_**
+- **_Internes script_**
+- **_Externes script_**
+- **_Mehrere externe scripts_**
 
-The following sections show different ways of adding JavaScript code to your web page.
+Die folgenden Abschnitte zeigen verschiedene möglichkeiten JavaScript code zu deiner Webpage hinzuzufügen.
 
 ### Inline Script
 
