@@ -302,9 +302,9 @@ Visual Studio Code ist ein sehr beliebter open-source Code editor. Ich würde em
 
 Wenn du VS-Code installiert hast, lass uns beginnen es zu nutzen.
 
-#### How to Use Visual Studio Code
+#### Visual Studio Code benutzen
 
-Open the Visual Studio Code by double-clicking its icon. When you open it, you will get this kind of interface. Try to interact with the labeled icons.
+Öffne Visual Studio Code mit einem Doppelclick auf das Icon. Wenn du es öffnest, wird dich dieses Interface erwarten. Versuche mit den markierten Icons zu interagieren.
 
 ![Vscode ui](./images/vscode_ui.png)
 
