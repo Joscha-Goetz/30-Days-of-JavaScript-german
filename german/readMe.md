@@ -90,9 +90,9 @@
 				- [Console.log mit mehreren Argumenten](#consolelog-mit-mehreren-argumenten)
 				- [Kommentare](#kommentare)
 				- [Syntax](#syntax)
-			- [Arithmetics](#arithmetics)
+			- [Arithmetik](#arithmetik)
 		- [Code Editor](#code-editor)
-			- [Installing Visual Studio Code](#installing-visual-studio-code)
+			- [Visual Studio Code installieren](#visual-studio-code-installieren)
 			- [How to Use Visual Studio Code](#how-to-use-visual-studio-code)
 	- [Adding JavaScript to a Web Page](#adding-javascript-to-a-web-page)
 		- [Inline Script](#inline-script)
@@ -292,9 +292,9 @@ console.log(3 ** 2) // Exponieren 3 ** 2 == 3 * 3
 
 ### Code Editor
 
-We can write our codes on the browser console, but it won't be for bigger projects. In a real working environment, developers use different code editors to write their codes. In this 30 days of JavaScript challenge, we will be using Visual Studio Code.
+Wir können unseren code in der Browserkonsole schreiben, aber das klappt nicht für größere Projekte. Professionelle Entwickler nutzen verschiedenste Code Editoren um ihren Code zu schreiben. Wir werden Visual Studio Code nutzen.
 
-#### Installing Visual Studio Code
+#### Visual Studio Code installieren
 
 Visual Studio Code is a very popular open-source text editor. I would recommend to [download Visual Studio Code](https://code.visualstudio.com/), but if you are in favor of other editors, feel free to follow with what you have.
 
