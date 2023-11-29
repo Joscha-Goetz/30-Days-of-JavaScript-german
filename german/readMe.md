@@ -97,7 +97,7 @@
 	- [JavaScript zu einer Webpage hinzufügen](#javascript-zu-einer-Webpage-hinzufügen)
 		- [Script in der Zeile](#script-in-der-zeile)
 		- [Internes Script](#internes-script)
-		- [External Script](#external-script)
+		- [Externes Script](#externes-script)
 		- [Multiple External Scripts](#multiple-external-scripts)
 	- [Introduction to Data types](#introduction-to-data-types)
 		- [Numbers](#numbers)
@@ -427,10 +427,10 @@ Externes script im _body_:
 
 Öffne die Browserkonsolu und sie dir den Output von `console.log()` an.
 
-### Multiple External Scripts
+### Mehrere Externe Scripte
 
-We can also link multiple external JavaScript files to a web page.
-Create a `helloworld.js` file inside the 30DaysOfJS folder and write the following code.
+Wir können auch mehrere verschieden JavaScript Dokumente in der Webpage verlinken.
+Erstelle ein `helloworld.js` file in deinem 30DaysJS Ordner und schreibe folgenden Code.
 
 ```js
 console.log('Hello, World!')
@@ -438,9 +438,9 @@ console.log('Hello, World!')
 
 ```html
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
   <head>
-    <title>Multiple External Scripts</title>
+    <title>Mehrere Externe Scripte</title>
   </head>
   <body>
     <script src="./helloworld.js"></script>
@@ -449,9 +449,9 @@ console.log('Hello, World!')
 </html>
 ```
 
-_Your main.js file should be below all other scripts_. It is very important to remember this.
+_Dein main.js file sollte immer unter allen anderen Scripten sein_. Es ist sehr wichtig sich das zu merken.
 
-![Multiple Script](./images/multiple_script.png)
+![Mehrere Scripte](./images/multiple_script.png)
 
 ## Introduction to Data types
 
