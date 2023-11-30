@@ -498,11 +498,11 @@ false // wenn das Licht aus ist, dann ist der Wert false
 
 ### Undefined
 
-In JavaScript, if we don't assign a value to a variable, the value is undefined. In addition to that, if a function is not returning anything, it returns undefined.
+Wenn wir in JavaScript keinen Wert zu einer Variable zuweisen ist diese undefined(undefiniert). Auch Funktionen, die keinen Wert zurückgeben, geben den Wert undefiniert zurück.
 
 ```js
 let firstName
-console.log(firstName) // undefined, because it is not assigned to a value yet
+console.log(firstName) // undefined, da ihm noch kein Wert zugewiesen ist
 ```
 
 ### Null
