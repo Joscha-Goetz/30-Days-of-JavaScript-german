@@ -105,7 +105,7 @@
 		- [Booleans](#booleans)
 		- [Undefined](#undefined)
 		- [Null](#null)
-	- [Checking Data Types](#checking-data-types)
+	- [Datentypen überprüfen](#datentypen-überprüfen)
 	- [Comments Again](#comments-again)
 	- [Variables](#variables)
 - [💻 Day 1: Exercises](#-day-1-exercises)
@@ -513,9 +513,9 @@ Null bedeutet in JavaScript, dass ein leerer Wert zugewiesen ist.
 let emptyValue = null
 ```
 
-## Checking Data Types
+## Datentypen überprüfen
 
-To check the data type of a certain variable, we use the **typeof** operator. See the following example.
+Um den Datentyp einer bestimmten Variable zu überprüfen benutzen wir den **typeof()** Operator. Hier ein Beispiel:
 
 ```js
 console.log(typeof 'Asabeneh') // string
