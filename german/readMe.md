@@ -106,7 +106,7 @@
 		- [Undefined](#undefined)
 		- [Null](#null)
 	- [Datentypen überprüfen](#datentypen-überprüfen)
-	- [Comments Again](#comments-again)
+	- [Schon wieder Kommentare](#schon-wieder-kommentare)
 	- [Variables](#variables)
 - [💻 Day 1: Exercises](#-day-1-exercises)
 
@@ -525,28 +525,28 @@ console.log(typeof null) // object type
 console.log(typeof undefined) // undefined
 ```
 
-## Comments Again
+## Schon wieder Kommentare
 
-Remember that commenting in JavaScript is similar to other programming languages. Comments are important in making your code more readable.
-There are two ways of commenting:
+Wir erinnern uns, dass kommentieren ähnlich zu anderen Programmiersprachen ist. Kommentare sind wichtig um unseren Code lesbar zu gestalten.
+Es gibt zwei verschiedene Arten von Kommentaren:
 
-- _Single line commenting_
-- _Multiline commenting_
+- _Einzeiliger Kommentar_
+- _Mehrzeiliger Kommentar_
 
 ```js
-// commenting the code itself with a single comment
-// let firstName = 'Asabeneh'; single line comment
-// let lastName = 'Yetayeh'; single line comment
+// den Code mit einem Kommentar kommentieren
+// let firstName = 'Asabeneh'; einzeiliger Kommentar
+// let lastName = 'Yetayeh'; einzeiliger Kommentar
 ```
 
-Multiline commenting:
+Mehrzeiliges Kommentierem:
 
 ```js
 /*
   let location = 'Helsinki';
   let age = 100;
   let isMarried = true;
-  This is a Multiple line comment
+  Das ist ein mehrzeiliger Kommentar
 */
 ```
 
