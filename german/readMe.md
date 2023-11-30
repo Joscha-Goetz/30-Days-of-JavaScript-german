@@ -100,7 +100,7 @@
 		- [Externes Script](#externes-script)
 		- [Multiple Externe Scripte](#mehrere-externe-scripte)
 	- [Einführung in Datentypen](#einführung-in-datentypen)
-		- [Numbers](#numbers)
+		- [Zahlen](#zahlen)
 		- [Strings](#strings)
 		- [Booleans](#booleans)
 		- [Undefined](#undefined)
@@ -457,13 +457,13 @@ _Dein main.js file sollte immer unter allen anderen Scripten sein_. Es ist sehr 
 
 In JavaScript und anderen Programmiersprachen gibt es verschiedene Arten von Datentypen. Das sind die primitven Datentypen von JavaScript: _String, Number, Boolean, undefined, Null_, und _Symbol_.
 
-### Numbers
+### Zahlen
 
-- Integers: Integer (negative, zero and positive) numbers
-  Example:
+- Integer: Integer (negative, 0 und positive) zahlen
+  Beispiel:
   ... -3, -2, -1, 0, 1, 2, 3 ...
-- Float-point numbers: Decimal number
-  Example
+- Float-point Zahlen: Dezimalzahlen
+  Beispiel:
   ... -3.5, -2.25, -1.0, 0.0, 1.1, 2.2, 3.5 ...
 
 ### Strings
