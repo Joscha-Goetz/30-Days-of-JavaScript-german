@@ -468,9 +468,9 @@ In JavaScript und anderen Programmiersprachen gibt es verschiedene Arten von Dat
 
 ### Strings
 
-A collection of one or more characters between two single quotes, double quotes, or backticks.
+Eine Sammlung von einem oder mehreren Zeichen, die in Anführungszeichen eingeschlossen sind.
 
-**Example:**
+**Beispiel:**
 
 ```js
 'a'
