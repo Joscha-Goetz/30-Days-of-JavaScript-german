@@ -487,15 +487,13 @@ Eine Sammlung von einem oder mehreren Zeichen, die in Anführungszeichen eingesc
 
 ### Booleans
 
-A boolean value is either True or False. Any comparisons returns a boolean value, which is either true or false.
+Ein Boolean-wert ist immer True(wahr) oder False(unwahr). Jeder Vergleich gibt einen der beiden Werte aus.
 
-A boolean data type is either a true or false value.
-
-**Example:**
+**Beispiel:**
 
 ```js
-true // if the light is on, the value is true
-false // if the light is off, the value is false
+true // wenn das Licht an ist, dann ist der Wert true
+false // wenn das Licht aus ist, dann ist der Wert false
 ```
 
 ### Undefined
