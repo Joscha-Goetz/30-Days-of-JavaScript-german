@@ -98,8 +98,8 @@
 		- [Script in der Zeile](#script-in-der-zeile)
 		- [Internes Script](#internes-script)
 		- [Externes Script](#externes-script)
-		- [Multiple External Scripts](#multiple-external-scripts)
-	- [Introduction to Data types](#introduction-to-data-types)
+		- [Multiple Externe Scripte](#mehrere-externe-scripte)
+	- [Einführung in Datentypen](#einführung-in-datentypen)
 		- [Numbers](#numbers)
 		- [Strings](#strings)
 		- [Booleans](#booleans)
@@ -453,9 +453,9 @@ _Dein main.js file sollte immer unter allen anderen Scripten sein_. Es ist sehr 
 
 ![Mehrere Scripte](./images/multiple_script.png)
 
-## Introduction to Data types
+## Einführung in Datentypen
 
-In JavaScript and also other programming languages, there are different types of data types. The following are JavaScript primitive data types: _String, Number, Boolean, undefined, Null_, and _Symbol_.
+In JavaScript und anderen Programmiersprachen gibt es verschiedene Arten von Datentypen. Das sind die primitven Datentypen von JavaScript: _String, Number, Boolean, undefined, Null_, und _Symbol_.
 
 ### Numbers
 
