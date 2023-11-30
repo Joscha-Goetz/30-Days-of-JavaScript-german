@@ -507,7 +507,7 @@ console.log(firstName) // undefined, da ihm noch kein Wert zugewiesen ist
 
 ### Null
 
-Null in JavaScript means an empty value.
+Null bedeutet in JavaScript, dass ein leerer Wert zugewiesen ist.
 
 ```js
 let emptyValue = null
