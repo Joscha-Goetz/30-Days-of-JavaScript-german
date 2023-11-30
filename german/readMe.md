@@ -107,7 +107,7 @@
 		- [Null](#null)
 	- [Datentypen überprüfen](#datentypen-überprüfen)
 	- [Schon wieder Kommentare](#schon-wieder-kommentare)
-	- [Variables](#variables)
+	- [Variablen](#variablen)
 - [💻 Day 1: Exercises](#-day-1-exercises)
 
 # 📔 Tag 1
@@ -539,7 +539,7 @@ Es gibt zwei verschiedene Arten von Kommentaren:
 // let lastName = 'Yetayeh'; einzeiliger Kommentar
 ```
 
-Mehrzeiliges Kommentierem:
+Mehrzeiliges Kommentieren:
 
 ```js
 /*
@@ -550,20 +550,20 @@ Mehrzeiliges Kommentierem:
 */
 ```
 
-## Variables
+## Variablen
 
-Variables are _containers_ of data. Variables are used to _store_ data in a memory location. When a variable is declared, a memory location is reserved. When a variable is assigned to a value (data), the memory space will be filled with that data. To declare a variable, we use _var_, _let_, or _const_ keywords.
+Variablen sind _behälter_ für Daten. Variablen werden benutzt um _Daten_ an einem Speicherort zu speichern. Wenn eine Variable deklariert wird, wird dafür ein Speicherort reserviert. Wenn eine Variable mit einem Wert(Daten) belegt wird, wird der Speicherort damit gefüllt. Um eine Variable zu deklarieren benutzen wir die Begriffe _var_, _const_ und _let_.
 
-For a variable that changes at a different time, we use _let_. If the data does not change at all, we use _const_. For example, PI, country name, gravity do not change, and we can use _const_. We will not use var in this challenge and I don't recommend you to use it. It is error prone way of declaring variable it has lots of leak. We will talk more about var, let, and const in detail in other sections (scope). For now, the above explanation is enough.
+Für eine Variable, die sich wieder verändern wird nutzen wir _let_. Wenn sich der Wert nie verändert benutzen wir _const_. Zum Beispiel bei PI, Ländernamen und Erdanziehungskraft nutzen wir _const_. In dieser Challenge werden wir _var_ nicht benutzen und ich empfehle es auch nicht. Es ist eine sehr fehleranfällige Methode Variablen zu deklarieren und weist einige Schwächen auf. Wir werden uns in anderen Kapiteln(scope) noch mit _var_, _let_ und _const_ beschäftigen. Jetzt reicht uns erstmal diese Erklärung.
 
-A valid JavaScript variable name must follow the following rules:
+Ein richtiger JavaScriptname muss die folgenden Anforderungen erfüllen:
 
-- A JavaScript variable name should not begin with a number.
-- A JavaScript variable name does not allow special characters except dollar sign and underscore.
-- A JavaScript variable name follows a camelCase convention.
-- A JavaScript variable name should not have space between words.
+- Eine JavaScript variable kann nicht mit einer Ziffer beginnen.
+- Ein JavaScript Variablenname darf keine besonderen Zeichen außer $ oder _ beinhalten.
+- Ein JavaScript name folgt der camelCase convention.
+- Ein JavaScript Variablenname darf keine Leerzeichen enthalten.
 
-The following are examples of valid JavaScript variables.
+Das sind ein paar Beispiele für valide Variablennamen:
 
 ```js
 firstName
@@ -587,9 +587,9 @@ year2020
 year_2020
 ```
 
-The first and second variables on the list follows the camelCase convention of declaring in JavaScript. In this material, we will use camelCase variables(camelWithOneHump). We use CamelCase(CamelWithTwoHump) to declare classes, we will discuss about classes and objects in other section.
+Der erste und zweite Name folgt der camelCase convention. In diesem Kurs werden wir die camelCase(camelWithOneHump) convention nutzen. Wir nutzen CamelCase(CamelWithTwoHump) um Classes zu definieren, doch um die Kümmern wir uns in einem anderen Kapitel.
 
-Example of invalid variables:
+Beispiele für fehlerhafte Variablennamen:
 
 ```js
   first-name
@@ -597,24 +597,24 @@ Example of invalid variables:
   num_#_1
 ```
 
-Let us declare variables with different data types. To declare a variable, we need to use _let_ or _const_ keyword before the variable name. Following the variable name, we write an equal sign (assignment operator), and a value(assigned data).
+Lasst uns Variablen mit verschiedenen Datentypen deklarieren. Um eine Variable zu deklarieren nutzen wir _let_ oder _const_ vor dem Variablennamen. Nach dem Variablennamen folgt ein Gleichzeichen und dann ein Wert.
 
 ```js
 // Syntax
 let nameOfVariable = value
 ```
 
-The nameOfVriable is the name that stores different data of value. See below for detail examples.
+Der name der Variable ist der Name, der den Wert speichert. Hier sind ein paar Beispiele:
 
-**Examples of declared variables**
+**Beispiele von deklarierten Variablen**
 
 ```js
-// Declaring different variables of different data types
-let firstName = 'Asabeneh' // first name of a person
-let lastName = 'Yetayeh' // last name of a person
-let country = 'Finland' // country
-let city = 'Helsinki' // capital city
-let age = 100 // age in years
+// Verschiedene Variablen mit verschiedenen Datentypen deklarieren
+let firstName = 'Asabeneh' // Vorname einer Person
+let lastName = 'Yetayeh' // Nachname einer Person
+let country = 'Finland' // Land
+let city = 'Helsinki' // Hauptstadt
+let age = 100 // Alter in Jahren
 let isMarried = true
 
 console.log(firstName, lastName, country, city, age, isMarried)
@@ -625,11 +625,11 @@ Asabeneh Yetayeh Finland Helsinki 100 true
 ```
 
 ```js
-// Declaring variables with number values
-let age = 100 // age in years
-const gravity = 9.81 // earth gravity  in m/s2
-const boilingPoint = 100 // water boiling point, temperature in °C
-const PI = 3.14 // geometrical constant
+// Variablen mit Nummerwerten deklarieren
+let age = 100 // Alter in Jahren
+const gravity = 9.81 // Erdanziehungskraft in m/s2
+const boilingPoint = 100 // Siedepunkt von Wasser in °C
+const PI = 3.14 // geometrische Konstante
 console.log(gravity, boilingPoint, PI)
 ```
 
@@ -638,7 +638,7 @@ console.log(gravity, boilingPoint, PI)
 ```
 
 ```js
-// Variables can also be declaring in one line separated by comma, however I recommend to use a seperate line to make code more readble
+// Variables können auch in einer Zeile mit einem Komma separiert deklariert werden, aber ich empfehle das nicht zu tun, um mehr Übersicht über den Code zu behalten
 let name = 'Asabeneh', job = 'teacher', live = 'Finland'
 console.log(name, job, live)
 ```
@@ -647,7 +647,7 @@ console.log(name, job, live)
 Asabeneh teacher Finland
 ```
 
-When you run _index.html_ file in the 01-Day folder you should get this:
+Wenn du das _index.html_ file im Ordner Tag01 ausführst sollte das dabei herrauskommen:
 
 ![Day one](./images/day_1.png)
 
